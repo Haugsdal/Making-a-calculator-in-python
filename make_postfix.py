@@ -1,3 +1,3 @@
-def make_postfix(expression):
+#def make_postfix(expression):
 
     #Make expression postfix:3
