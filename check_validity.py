@@ -4,7 +4,7 @@ def check_validity(mini_expression):
     divided_mini_expression=[*mini_expression]
     #print("divided expression:", divided_mini_expression)
     new_expression=""
-    allowed_operators=["+","-","*","/","(",")"]
+    allowed_operators=["+","-","*","/","(",")","."]
 
     for character in divided_mini_expression:
         if character.isdigit() or character in allowed_operators:
